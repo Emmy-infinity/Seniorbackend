@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'elearningplatform',
+    'myproject',
     
     
     
@@ -74,7 +74,7 @@ MIDDLEWARE = [
 
 
 
-ROOT_URLCONF = 'CANINSTITUTE2.urls'
+ROOT_URLCONF = 'myproject.urls'
 
 TEMPLATES = [
     {
@@ -92,7 +92,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'CANINSTITUTE2.wsgi.application'
+WSGI_APPLICATION = 'myproject.wsgi.application'
 #prod_db=dj_database_url.config(conn_max_age=5000)
 
 
